@@ -112,6 +112,13 @@ a {
   border: 0;
   padding: 5px;
   box-shadow: none;
+  transition: transform 180ms ease;
+}
+.site-nav .navbar-toggler-icon {
+  transition: transform 250ms ease;
+}
+.site-nav .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+  transform: rotate(90deg);
 }
 .search-row {
   height: 43px;
