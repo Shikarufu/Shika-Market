@@ -159,6 +159,9 @@ a {
   .site-nav .navbar-collapse {
     padding: 12px 0 3px;
   }
+  .site-nav .navbar-collapse.collapsing {
+    transition: height 400ms ease-in-out;
+  }
   .nav-links {
     gap: 0;
   }
